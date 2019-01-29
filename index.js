@@ -26,16 +26,32 @@ var newCourseList = [
 ];
 
 
-/* idAndTitle => [
-    {id:511021, "title": "React for Beginners",}, 
-    {"id": 511022,"title": "Vue2 for Beginners",},
-    {"id": 511023, "title": "Angular2 for Beginners",}, 
-    {"id": 511024, "title": "Webpack for Beginners",}
+/* ratingFive => [
+	{
+		"id": 511021,
+		"title": "React for Beginners",
+		"coverPng": "https://res.cloudinary.com/dohtkyi84/image/upload/v1481226146/react-cover.png",
+		"rating": 5
+	},
+	{
+		"id": 511022,
+		"title": "Vue2 for Beginners",
+		"coverPng": "https://res.cloudinary.com/dohtkyi84/image/upload/v1481226146/react-cover.png",
+		"rating": 5
+	},
+	{
+		"id": 511023,
+		"title": "Angular2 for Beginners",
+		"coverPng": "https://res.cloudinary.com/dohtkyi84/image/upload/v1481226146/react-cover.png",
+		"rating": 5
+	}
 ]
 */
 
-// 請用 map 完成
-var idAndTitle = newCourseList
+// 請用 filter 完成
+var ratingFive = newCourseList
+
+console.log(ratingFive);
 
 
-console.log(idAndTitle);
+
