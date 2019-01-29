@@ -23,7 +23,7 @@ var newCourseList = [
 		"coverPng": "https://res.cloudinary.com/dohtkyi84/image/upload/v1481226146/react-cover.png",
 		"rating": 4
 	}
-], idAndTitle = [];
+];
 
 
 /* idAndTitle => [
@@ -34,4 +34,8 @@ var newCourseList = [
 ]
 */
 
-console.log(idAndTitle)
+// 請用 map 完成
+var idAndTitle = newCourseList
+
+
+console.log(idAndTitle);
